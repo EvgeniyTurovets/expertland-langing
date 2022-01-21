@@ -18,6 +18,7 @@ p{
         font-weight: 400;
         color:rgb(66, 114, 61);
         text-decoration: underline;
+        font-weight: bold;
     }
 }
 
@@ -196,7 +197,7 @@ top: 7px;
 
 /* style the items (options), including the selected item: */
 .select-items div,.select-selected {
-color: #000;
+color: #666666;
 padding: 8px 16px;
 border: 1px solid transparent;
 border-color: #666666;
