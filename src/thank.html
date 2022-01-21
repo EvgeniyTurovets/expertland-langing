@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="app">
+    @include('partials/header.html')
+    <main>
+      <section class="sec-thank">
+          <div class="wrap">
+              <div class="sec-thank__wrap">
+                <div class="sec-thank__title">Thank you for your submission. </div>
+                <div class="sec-thank__text">A Legal Representative will contact you shortly to discuss your Claim Review.</div>
+                <div class="sec-thank__wrap2">
+                    <div class="title">
+                        Don’t Want to Wait?
+                    </div>
+                    <div class="title2">
+                        Call <span>855-211-0267</span> now to speak to an associate
+                    </div>
+                    <p>
+                        Having the right lawyer by your side can make all the difference. Whether you have suffered from a car accident or developed cancer caused by a harmful chemical, you no longer have to suffer in silence.
+                    </p>
+                    <div class="line"></div>
+                    <p>
+                        If you or a loved one has been injured, time is of the essence! You could receive financial compensation but you must <a href="">act now</a> Contact one of our legal representatives today to see how we can help.
+                    </p>
+                    <div class="sec-thank__wrap2__bot">
+                        <a href="" class="btn-g">Get Started</a>
+                    </div>
+                </div>
+                <div class="sec-thank__bot">
+                    Our Claim Reviews are always FREE. We fight for you!
+                </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    @include('partials/footer.html')
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
